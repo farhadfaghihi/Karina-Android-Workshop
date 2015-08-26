@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:textColorLink="#34f"
+        android:autoLink="web"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="www.karinaco.com"
+        android:id="@+id/tvWeb" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="7dp"
+        android:textColor="#4ad"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:lines="3"
+        android:lineSpacingMultiplier="2"
+        android:maxLines="3"
+        android:minLines="1"
+        android:text="Welcome Karina Mobile Solutions,Welcome Karina Mobile Solutions,Wellcome Karina Mobile Solutions,Wellcome Karina Mobile Solutions,Wellcome Karina Mobile Solutions,Wellcome Karina Mobile Solutions"
+        android:id="@+id/tv1" />
+
+</LinearLayout>
